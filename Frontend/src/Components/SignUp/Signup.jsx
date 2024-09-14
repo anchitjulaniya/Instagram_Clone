@@ -1,7 +1,7 @@
 import React from "react";
 import { FaSquareFacebook } from "react-icons/fa6";
 import microsoftBtn from '../../assets/Images/microsoftBtn.png'
-import googleplayBtn from '../../assets/Images/googleplayBtn.png'
+import googleplayBtn from '../../assets/Images/googlePlayBtn.png'
 import InstaLogo from '../../assets/Images/Insta-logo-1.png'
 
 function Signup() {
