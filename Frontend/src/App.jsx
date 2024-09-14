@@ -7,8 +7,6 @@ function App() {
 
   return (
     <>
-      
-      <span onClick={() => {navigate('/signup')}}>SiginUp</span>
       <Outlet />
     </>
   )
