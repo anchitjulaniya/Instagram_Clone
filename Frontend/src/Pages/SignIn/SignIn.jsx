@@ -1,5 +1,5 @@
 import React from 'react'
-import Signin from '../../Components/SignIn/SignIn'
+import Signin from '../../Components/SignIn/Signin'
 import Footer from '../../Components/Footer/Footer'
 
 function SignIn() {
