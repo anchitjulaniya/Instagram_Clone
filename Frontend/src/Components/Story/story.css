@@ -1,0 +1,18 @@
+/* Custom outline with gradient */
+.story-border {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .story-border.has-new-story::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: linear-gradient(to right, red, purple);
+    border-radius: 50%;
+  }
+  
