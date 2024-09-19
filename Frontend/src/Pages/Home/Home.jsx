@@ -6,6 +6,8 @@ import StoryBar from '../../Components/StoryBar/StoryBar'
 import Post from '../../Components/Post/Post'
 import SuggetionsSideBar from '../../Components/SuggetionsSideBar/SuggetionsSideBar'
 import Profile from '../ProfilePage/Profile'
+import Search from '../Search/Search'
+import Messages from '../Messages/Messages'
 
 function Home() {
   return (
@@ -15,8 +17,13 @@ function Home() {
         <StoryBar />
         <BottomNavbar />
         <Post />
-        <SuggetionsSideBar /> */}
+        <SuggetionsSideBar /> 
         <Profile />
+        <Messages />
+        */}
+        
+
+
     </>
   )
 }
