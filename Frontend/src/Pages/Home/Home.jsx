@@ -8,6 +8,8 @@ import SuggetionsSideBar from '../../Components/SuggetionsSideBar/SuggetionsSide
 import Profile from '../ProfilePage/Profile'
 import Search from '../Search/Search'
 import Messages from '../Messages/Messages'
+import Reels from '../Reels/Reels'
+import Explore from '../Explore/Explore'
 
 function Home() {
   return (
@@ -21,7 +23,11 @@ function Home() {
         <Profile />
         <Messages />
         */}
-        
+
+          <Search />
+
+        {/* <Reels />
+        <Explore /> */}
 
 
     </>
