@@ -20,7 +20,7 @@ const renderFunction = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <App />,
+        element: <Home />,
       }, 
       {
         path: '/signup',
