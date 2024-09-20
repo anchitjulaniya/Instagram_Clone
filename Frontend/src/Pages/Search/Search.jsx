@@ -10,6 +10,7 @@ function Search() {
           <input className=' outline-none' placeholder='Search' type="text" />
         </div>
       </div>
+      <div className='mt-[60px] md:mt-0'>Search content</div>
     </div>
   )
 }

@@ -8,7 +8,7 @@ import post1 from '../../assets/Images/post1.avif'
 
 function Post() {
   return (
-    <div className="flex flex-col max-w-lg w-lg px-12">
+    <div className="flex flex-col max-w-lg w-lg sm:px-12">
       <div id="top" className="flex justify-between items-center h-[65px]">
         <div className="flex items-center gap-2">
           <div
@@ -29,7 +29,7 @@ function Post() {
           <BsThreeDots />
         </span>
       </div>
-      <div id="image" className="w-full">
+      <div id="image" className="w-full max-w-screen">
         <img src={post1} className="rounded-md" />
       </div>
       <div className="flex justify-between w-full py-2  text-xl">

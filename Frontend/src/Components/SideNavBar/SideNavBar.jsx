@@ -11,46 +11,49 @@ import { CgProfile } from "react-icons/cg";
 import { TbBrandMessenger } from "react-icons/tb";
 import { FaRegHeart } from "react-icons/fa";
 import { FiPlusSquare } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 function SideNavBar() {
+  const navigate = useNavigate();
   return (
     <>
       {/* laptop and tablet navbar */}
-      <div className="hidden md:flex flex-col items-center lg:items-start w-[80px] lg:w-[250px] px-3 border-r border-[#dbdbdb] h-[100vh] pt-10 overflow-hidden">
+      <div className="overflow-y-auto max-h-screen sticky left-0 top-0 hidden md:flex flex-col items-center lg:items-start w-[80px] lg:w-[250px] px-3 border-r border-[#dbdbdb] h-[100vh] pt-10 overflow-hidden">
         <img
+          onClick={() => navigate("/home")}
           src={InstaLogo}
           className="hidden lg:block h-[40px] w-[120px] "
           alt="Instagram Logo"
         />
-        <img className="h-[30px] w-[30px] lg:hidden" src={navlogo} alt="" />
+        <img onClick={() => navigate("/home")} className="h-[30px] w-[30px] lg:hidden" src={navlogo} alt="" />
 
         <div className="flex flex-col justify-between h-full py-8 w-full">
           <div className="flex flex-col items-center lg:items-start gap-3 w-full">
-            <div className="flex items-center gap-3 rounded-xl p-2 bg-[#dbdbdb] px-3 py-2 lg:px-2 lg:w-full">
+            <div onClick={()=>navigate("/")} className="flex items-center gap-3 rounded-xl p-2 bg-[#dbdbdb] px-3 py-2 lg:px-2 lg:w-full">
               <span className="text-xl">
                 <IoHomeSharp />
               </span>
               <span className="text-lg hidden lg:block">Home</span>
             </div>
-            <div className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
+            <div onClick={()=>navigate("/search")} className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
               <span className="text-xl">
                 <IoSearchSharp />
               </span>
               <span className="text-lg hidden lg:block">Search</span>
             </div>
-            <div className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
+            <div onClick={()=>navigate("/explore")} className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
               <span className="text-xl">
                 <MdOutlineExplore />
               </span>
               <span className="text-lg hidden lg:block">Explore</span>
             </div>
-            <div className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
+            <div onClick={()=>navigate("/reels")} className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
               <span className="text-xl">
                 <RxVideo />
               </span>
               <span className="text-lg hidden lg:block">Reels</span>
             </div>
-            <div className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
+            <div onClick={()=>navigate("/messages")} className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
               <span className="text-xl">
                 <TbBrandMessenger />
               </span>
@@ -68,7 +71,7 @@ function SideNavBar() {
               </span>
               <span className="text-lg hidden lg:block">Create</span>
             </div>
-            <div className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
+            <div onClick={()=>navigate("/profile")} className="flex items-center gap-3 rounded-xl px-3 py-2 lg:px-2 lg:w-full">
               <span className="text-xl">
                 <CgProfile />
               </span>

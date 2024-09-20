@@ -10,10 +10,10 @@ import { FaThreads } from "react-icons/fa6";
 
 function Profile() {
   return (
-    <div className=" sm:p-8">
-      <div className=" max-w-[912px] w-full h-screen">
+    <div className="max-w-[912px] w-full h-screen sm:px-8 sm:pt-[52px] sm:pb-8">
+      <div className=" ">
         {/* for mobile */}
-        <div id="header-2" className="fixed w-full top-0 bg-white flex sm:hidden justify-between items-center py-2 px-2 border-b border-[rgb(255, 255, 255)]">
+        <div id="header-2" className="fixed w-full top-0 bg-white flex sm:hidden justify-between items-center py-2 px-2 to">
             <span><IoIosSettings /></span>
             <span className="flex items-center justify-center gap-1">
                 <span>janedoe</span>

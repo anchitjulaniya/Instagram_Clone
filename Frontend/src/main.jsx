@@ -7,6 +7,11 @@ import SignUp from './Pages/SignUp/SignUp.jsx'
 import SignIn from './Pages/SignIn/SignIn.jsx'
 import { ErrorPage } from './Pages/Error/Error.jsx'
 import Home from './Pages/Home/Home.jsx'
+import Explore from './Pages/Explore/Explore.jsx'
+import Messages from './Pages/Messages/Messages.jsx'
+import Search from './Pages/Search/Search.jsx'
+import Reels from './Pages/Reels/Reels.jsx'
+import Profile from './Pages/ProfilePage/Profile.jsx'
 
 const renderFunction = createBrowserRouter([
   {
@@ -28,6 +33,26 @@ const renderFunction = createBrowserRouter([
       {
         path: '/home',
         element: <Home />,
+      },
+      {
+        path: '/search',
+        element: <Search />,
+      },
+      {
+        path: '/explore',
+        element: <Explore />,
+      },
+      {
+        path: '/reels',
+        element: <Reels />,
+      },
+      {
+        path: '/messages',
+        element: <Messages />,
+      },
+      {
+        path: '/profile',
+        element: <Profile />,
       }
     ],
     errorElement: <ErrorPage />

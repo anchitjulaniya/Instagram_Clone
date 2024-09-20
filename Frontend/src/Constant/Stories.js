@@ -53,4 +53,22 @@ export const stories = [
       userName: "Jane Doe",
       newStory: false,
     },
+    {
+      id: 10,
+      profileImage: 'https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2ZpbGUlMjBwaWN0dXJlJTIwaW5zdGFncmFtJTIwbWVufGVufDB8fDB8fHww',
+      userName: "Anchit Julaniya",
+      newStory: true,
+    },
+    {
+      id: 11,
+      profileImage: 'https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2ZpbGUlMjBwaWN0dXJlJTIwaW5zdGFncmFtJTIwbWVufGVufDB8fDB8fHww',
+      userName: "Akshat Singhi",
+      newStory: false,
+    },
+    {
+      id: 12,
+      profileImage: 'https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2ZpbGUlMjBwaWN0dXJlJTIwaW5zdGFncmFtJTIwbWVufGVufDB8fDB8fHww',
+      userName: "Jane Doe",
+      newStory: false,
+    },
   ];

@@ -13,24 +13,17 @@ import Explore from '../Explore/Explore'
 
 function Home() {
   return (
-    <>  
-        {/* <TopNavbar />
-        <SideNavBar />
+    <div className='flex w-full'>
+      <div className='flex flex-col w-full items-center p-1 sm:min-w-[702px]'>  
         <StoryBar />
-        <BottomNavbar />
         <Post />
-        <SuggetionsSideBar /> 
-        <Profile />
-        <Messages />
-        */}
-
-          <Search />
-
-        {/* <Reels />
-        <Explore /> */}
-
-
-    </>
+        <Post />
+        <Post />
+      </div>
+      <div>
+        <SuggetionsSideBar />
+      </div>
+    </div>
   )
 }
 

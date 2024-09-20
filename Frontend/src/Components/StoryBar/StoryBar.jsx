@@ -8,7 +8,7 @@ function StoryBar() {
   return (
     <div
       id="story-bar"
-      className="mt-[44px] md:mt-0 bg-[rgb(240,240,240)] flex pl-3 pr-3 gap-3 overflow-x-scroll scrollbar-hide"
+      className=" mt-[44px] md:mt-0 flex justify-start px-6 gap-2 overflow-x-scroll w-screen max-w-[702px] scrollbar-hide mx-auto"
     >
       {/* <Story img={''} username={'Jane Doe'} newStory={false} /> */}
       {stories.map((story) => (
