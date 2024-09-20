@@ -23,14 +23,6 @@ const renderFunction = createBrowserRouter([
         element: <Home />,
       }, 
       {
-        path: '/signup',
-        element: <SignUp />,
-      },
-      {
-        path: '/signin',
-        element: <SignIn />,
-      },
-      {
         path: '/home',
         element: <Home />,
       },
@@ -55,6 +47,15 @@ const renderFunction = createBrowserRouter([
         element: <Profile />,
       }
     ],
+  },
+  {
+    path: '/signup',
+    element: <SignUp />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: '/signin',
+    element: <SignIn />,
     errorElement: <ErrorPage />
   }
 ])
