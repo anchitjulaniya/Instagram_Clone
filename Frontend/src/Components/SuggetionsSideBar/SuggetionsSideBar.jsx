@@ -13,7 +13,6 @@ function SuggetionsSideBar() {
       <SuggestionSideBarProfile profileImage={profile1} userName="mariaJ" name="Maria Johnson" funct="follow" />
       <SuggestionSideBarProfile profileImage={profile1} userName="mariaJ" name="Maria Johnson" funct="follow" />
       <SuggestionSideBarProfile profileImage={profile1} userName="mariaJ" name="Maria Johnson" funct="follow" />
-      <SuggestionSideBarProfile profileImage={profile1} userName="mariaJ" name="Maria Johnson" funct="follow" />
     </div>
 
 

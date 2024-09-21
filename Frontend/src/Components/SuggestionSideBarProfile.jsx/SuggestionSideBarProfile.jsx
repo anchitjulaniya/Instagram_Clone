@@ -3,7 +3,7 @@ import profile1 from '../../assets/Images/profile-1.avif'
 
 function SuggestionSideBarProfile({profileImage, userName, name,  funct}) {
   return (
-    <div className=' max-w-[320px] w-[320px] flex items-center'>
+    <div className=' max-w-[320px] w-[320px] flex items-center text-[14px]'>
         <div className='p-[10px]'>
             <img src={profileImage} className='rounded-full w-[44px] min-w-[44px] h-[44px]' alt="" />
         </div>

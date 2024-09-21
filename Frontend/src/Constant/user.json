@@ -1,0 +1,94 @@
+{
+    "data": {
+      "ai_agent_type": null,
+      "biography": "builder of stuff \ncheat meal crusher \ntequila sipper \n💕og girl dad 💕",
+      "bio_links": [
+        {
+          "title": "",
+          "lynx_url": "https://l.instagram.com/?u=http%3A%2F%2Ftherock.komi.io%2F&e=AT2F65NpExldhGLplB28kcJgX1YJnrT2T-qpnVncR3FRf8B5tzEeG2cUGJeI8wo5MIU6dOHmot0XRBAdx9aDQad8xpGs1pdr-_DRch0",
+          "url": "http://therock.komi.io",
+          "link_type": "external"
+        }
+      ],
+      "fb_profile_biolink": null,
+      "biography_with_entities": {
+        "raw_text": "builder of stuff \ncheat meal crusher \ntequila sipper \n💕og girl dad 💕",
+        "entities": []
+      },
+      "blocked_by_viewer": false,
+      "restricted_by_viewer": false,
+      "country_block": false,
+      "eimu_id": "103372757729107",
+      "external_url": "http://therock.komi.io/",
+      "external_url_linkshimmed": "https://l.instagram.com/?u=http%3A%2F%2Ftherock.komi.io%2F&e=AT3p2iqlJxe86YuHwkdB2e-muoWRffM-dfLeBCjXmcnmqwj_OfeT4DDvmPoJ99F8SckCYjwVg3LP9xXBUAH4XltfA8ePMvIf7khyDPA",
+      "edge_followed_by": {
+        "count": 395366105
+      },
+      "fbid": "17841400005463628",
+      "followed_by_viewer": false,
+      "edge_follow": {
+        "count": 0
+      },
+      "follows_viewer": false,
+      "full_name": "Dwayne Johnson",
+      "group_metadata": null,
+      "has_ar_effects": false,
+      "has_clips": true,
+      "has_guides": false,
+      "has_chaining": true,
+      "has_channel": false,
+      "has_blocked_viewer": false,
+      "highlight_reel_count": 5,
+      "has_requested_viewer": false,
+      "hide_like_and_view_counts": false,
+      "id": "232192182",
+      "is_business_account": false,
+      "is_professional_account": true,
+      "is_supervision_enabled": false,
+      "is_guardian_of_viewer": false,
+      "is_supervised_by_viewer": false,
+      "is_supervised_user": false,
+      "is_embeds_disabled": false,
+      "is_joined_recently": false,
+      "guardian_id": null,
+      "business_address_json": null,
+      "business_contact_method": "UNKNOWN",
+      "business_email": null,
+      "business_phone_number": null,
+      "business_category_name": null,
+      "overall_category_name": null,
+      "category_enum": null,
+      "category_name": "Public figure",
+      "is_private": false,
+      "is_verified": true,
+      "is_verified_by_mv4b": false,
+      "is_regulated_c18": false,
+      "edge_mutual_followed_by": {
+        "count": 0,
+        "edges": []
+      },
+      "pinned_channels_list_count": 0,
+      "profile_pic_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/11850309_1674349799447611_206178162_a.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=1&_nc_ohc=o_Dyj5pveH4Q7kNvgGS3a0D&_nc_gid=52d20dc6bb7b414db7b6febd93e71cb6&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AYBuYzptOGgbQwkK5xLr8ivg2BtvqdIEZdCokEtGdUQDlA&oe=66F44B84&_nc_sid=8b3546",
+      "profile_pic_url_hd": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/11850309_1674349799447611_206178162_a.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=1&_nc_ohc=o_Dyj5pveH4Q7kNvgGS3a0D&_nc_gid=52d20dc6bb7b414db7b6febd93e71cb6&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AYBuYzptOGgbQwkK5xLr8ivg2BtvqdIEZdCokEtGdUQDlA&oe=66F44B84&_nc_sid=8b3546",
+      "requested_by_viewer": false,
+      "should_show_category": false,
+      "should_show_public_contacts": false,
+      "show_account_transparency_details": true,
+      "transparency_label": null,
+      "transparency_product": null,
+      "username": "therock",
+      "connected_fb_page": null,
+      "pronouns": [],
+      "edge_owner_to_timeline_media": {
+        "count": 7888,
+        "page_info": {
+          "has_next_page": true,
+          "end_cursor": ""
+        },
+        "edges": []
+      },
+      "about": null
+    },
+    "status": "ok",
+    "message": null
+  }
