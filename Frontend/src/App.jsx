@@ -28,7 +28,7 @@ function App() {
   }
 
   useEffect(()=>{
-    fetchData()
+    // fetchData()
   },[])
   return (
     <div className='flex flex-1 flex-col sm:flex-row'>
